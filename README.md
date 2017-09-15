@@ -5,3 +5,4 @@ C++11中的多线程开发
 3、future库的使用
 4、condition_variable库的使用
 5、atomic库的使用
+My stupid boss still prefers SVN.
