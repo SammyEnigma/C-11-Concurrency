@@ -33,9 +33,12 @@
 
 
 #VS Compiled
+x64
 Debug
 Release
 ipch
+atomic_operator
+Concurrency.VC.db
 *.bsc
 *.aps
 *.clw
