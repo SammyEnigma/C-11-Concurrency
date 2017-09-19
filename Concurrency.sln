@@ -73,6 +73,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "atomic_compare_exchange_wea
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "atomic_flag", "atomic_flag\atomic_flag.vcxproj", "{A04C7452-DABE-41BF-BBE9-5E040C01D1BE}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "atomic_flag_spinlock", "atomic_flag_spinlock\atomic_flag_spinlock.vcxproj", "{C76E347D-0423-4DB7-B920-8FECC6939014}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -321,6 +323,14 @@ Global
 		{A04C7452-DABE-41BF-BBE9-5E040C01D1BE}.Release|x64.Build.0 = Release|x64
 		{A04C7452-DABE-41BF-BBE9-5E040C01D1BE}.Release|x86.ActiveCfg = Release|Win32
 		{A04C7452-DABE-41BF-BBE9-5E040C01D1BE}.Release|x86.Build.0 = Release|Win32
+		{C76E347D-0423-4DB7-B920-8FECC6939014}.Debug|x64.ActiveCfg = Debug|x64
+		{C76E347D-0423-4DB7-B920-8FECC6939014}.Debug|x64.Build.0 = Debug|x64
+		{C76E347D-0423-4DB7-B920-8FECC6939014}.Debug|x86.ActiveCfg = Debug|Win32
+		{C76E347D-0423-4DB7-B920-8FECC6939014}.Debug|x86.Build.0 = Debug|Win32
+		{C76E347D-0423-4DB7-B920-8FECC6939014}.Release|x64.ActiveCfg = Release|x64
+		{C76E347D-0423-4DB7-B920-8FECC6939014}.Release|x64.Build.0 = Release|x64
+		{C76E347D-0423-4DB7-B920-8FECC6939014}.Release|x86.ActiveCfg = Release|Win32
+		{C76E347D-0423-4DB7-B920-8FECC6939014}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -356,5 +366,6 @@ Global
 		{2494B741-76C4-4DD2-99B1-B403FA55599E} = {CC89F1B2-2CB8-46B8-BFD6-A1BA9B36DFC4}
 		{8542AB3B-2294-4BCE-AB21-184C68890C43} = {CC89F1B2-2CB8-46B8-BFD6-A1BA9B36DFC4}
 		{A04C7452-DABE-41BF-BBE9-5E040C01D1BE} = {CC89F1B2-2CB8-46B8-BFD6-A1BA9B36DFC4}
+		{C76E347D-0423-4DB7-B920-8FECC6939014} = {CC89F1B2-2CB8-46B8-BFD6-A1BA9B36DFC4}
 	EndGlobalSection
 EndGlobal

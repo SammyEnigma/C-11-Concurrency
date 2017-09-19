@@ -20,8 +20,8 @@ void print_foo()
 	do 
 	{
 		x = foo.load(std::memory_order_relaxed);	// get value atomically
-	} while (foo == 0);
-	std::cout << "foo: " << foo << '\n';
+	} while (x == 0);
+	std::cout << "foo: " << x << '\n';
 }
 
 
