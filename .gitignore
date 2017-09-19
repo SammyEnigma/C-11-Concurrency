@@ -38,7 +38,9 @@ Debug
 Release
 ipch
 atomic_operator
-Concurrency.VC.db
+.vs
+*.db
+*.opendb
 *.bsc
 *.aps
 *.clw
